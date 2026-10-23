@@ -1,0 +1,13 @@
+{
+  "system": "SLOTH Local AI Agent",
+  "version": "1.0.0",
+  "local_first": true,
+  "inference_backend": "Ollama",
+  "default_model": "qwen2.5:3b",
+  "settings": {
+    "concurrency_limit": 2,
+    "temperature": 0.2,
+    "keep_alive": "5m"
+  },
+  "modules": ["scanner", "organizer", "digest", "relax_mode"]
+}

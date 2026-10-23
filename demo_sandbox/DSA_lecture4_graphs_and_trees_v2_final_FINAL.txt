@@ -1,0 +1,22 @@
+Data Structures and Algorithms - Lecture 4: Graph Traversals & Trees
+Instructor: Dr. Alan Turing
+Date: October 14, 2026
+
+1. Graph Representations:
+- Adjacency Matrix: O(V^2) space, O(1) edge lookup. Best for dense graphs.
+- Adjacency List: O(V + E) space, efficient iteration over neighbors. Best for sparse graphs.
+
+2. Breadth-First Search (BFS):
+- Uses a Queue (FIFO).
+- Finds the shortest path in unweighted graphs.
+- Time Complexity: O(V + E).
+- Space Complexity: O(V) for visited set and queue.
+
+3. Depth-First Search (DFS):
+- Uses recursion or a Stack (LIFO).
+- Useful for cycle detection, topological sorting, and finding connected components.
+- Time Complexity: O(V + E).
+
+4. Action Items & Assignments:
+- Complete Homework 2 on Minimum Spanning Trees (Kruskal and Prim).
+- Submission deadline: October 29, 2026 at 11:59 PM.

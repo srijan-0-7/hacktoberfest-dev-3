@@ -1,0 +1,13 @@
+A Survey on Efficient Self-Attention in Large Language Models
+Authors: S. Vaswani, J. Devlin, et al.
+Abstract:
+Standard transformer models rely on scaled dot-product self-attention with O(N^2) complexity in sequence length. In this survey, we categorize linear attention, FlashAttention, and sparse attention approaches. We highlight hardware-aware optimizations that achieve 3x throughput improvements on modern GPUs.
+
+Key Takeaways:
+1. Standard attention: Attention(Q, K, V) = softmax(QK^T / sqrt(d_k)) V.
+2. Memory bandwidth is typically the primary bottleneck during autoregressive decoding.
+3. FlashAttention reduces HBM memory read/writes by tiling computation in SRAM.
+
+Action Items:
+- Benchmark kernel throughput on Qwen 2.5 and Llama architectures.
+- Review token throughput metrics by November 12, 2026.

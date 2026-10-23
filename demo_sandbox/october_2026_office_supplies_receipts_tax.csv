@@ -1,0 +1,6 @@
+Date,Vendor,Category,Amount_USD,Tax_Deductible,Notes
+2026-10-02,AWS Cloud Hosting,Infrastructure,142.50,Yes,Production server compute
+2026-10-05,Office Depot,Supplies,38.99,Yes,Notebooks and dry erase markers
+2026-10-10,Stripe Terminal,Payment Processing,15.20,Yes,Merchant transaction fees
+2026-10-15,Peet's Coffee,Meals & Entertainment,24.50,No,Team sprint sync coffee
+2026-10-21,GitHub Enterprise,Software Subscriptions,84.00,Yes,Team licenses for Hacktoberfest
